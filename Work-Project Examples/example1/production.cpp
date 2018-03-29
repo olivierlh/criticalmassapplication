@@ -2,16 +2,11 @@
 #include <iostream>
 #include <utility>
 
-// Cette fonction prend en entree une instance du probleme de planification de la production et retourne
-// dans le vecteur "solution" la quantite qui doit etre produite chaque jour afin de minimiser les couts
-// de production et d'entreposage.
+// This function takes an instance of the production scheduling problem and returns
+// in the "solution" vector the quantity that must be produced each day in order to minimize the costs
+// of production and storage.
 void ProductionProgrammationDynamique(const InstanceProduction& instance,
 		std::vector<unsigned int>& solution) {
-	// Ecrivez votre code ici. Votre algorithme devrait proceder en deux phases:
-	//   1) il devrait construire un tableau.
-	//   2) il devrait remonter le tableau et ecrire la solution dans vecteur "solution".
-	//
-	// Vous pouvez declarer de nouvelles fonctions dans le fichier production.cpp, mais vous ne devez pas modifier le fichier production.hpp
 
 	std::vector<std::vector<unsigned int>> tableau;
 	std::vector<std::vector<unsigned int>> tableauProduit;
@@ -62,7 +57,6 @@ void ProductionProgrammationDynamique(const InstanceProduction& instance,
 
 				if (production <= (int) instance.production_maximale()
 						&& production >= 0 && coutDeEj < 9999999) {
-					//) {
 					int coutProduction = instance.cout_production(production);
 					int coutEntreposage = instance.cout_entreposage(ek);
 					cout = coutProduction + coutEntreposage + coutDeEj;
