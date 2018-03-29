@@ -2,7 +2,24 @@
 
 ## Work / Project Examples
 
-blablabla
+
+All my examples of work are in the folder \Work-Project Examples. Every of my project was in French, but I can code in English.
+For my first example. The problem was that I had an enterprise that create products and they have a storage cost and a production cost, also I need to fulfil the demand every day and I can’t exceed my storage space. For a given period and prices, I need to optimize the cost of storage and production.
+
+## Example 1
+
+I worked alone on this project in c++. So what I did is create a table of dimensions of the maximum amount of storage from 0 to 𝐸 per n number of days from 0 to 𝑛 -1.
+I put an image of my basic case in my folder. My variable 𝑑𝑖 is the demand for the day i, 𝑒𝑗 and 𝑒𝑘  are the amount of storage space available after the day. V is my matrix (E x n).
+
+I need to verify:
+ 0 ≤ 𝑑𝑖−𝑒𝑗+𝑒𝑘  ≤ 𝑃 and 𝑒𝑘  <= E
+
+So the solution is to create the matrix and for every single day, you calculate the price for e products plus the cost of storage. Then when I’m done with the matrix, I choose the minimum cost on the final day and I check what I needed to do (store and product) the day before until I find my solution for every day.
+
+## Example 2
+
+
+
 
 ### Inspiration
 
