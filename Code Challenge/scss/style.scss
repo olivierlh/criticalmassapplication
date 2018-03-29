@@ -1,0 +1,38 @@
+#list {
+  font-family: Georgia, Times, serif;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-around
+}
+
+#list ul {
+  list-style: none;
+}
+
+#list ul li {
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: #1d1f20;
+  line-height: 40px;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #CCCCCC;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.title {
+  font-weight: bold;
+  color: #FFFFFF;
+  background-color: #002545;
+  letter-spacing: 1pt;
+  word-spacing: 2pt;
+  text-align: left;
+  font-family: trebuchet MS, sans-serif;
+  line-height: 1;
+  text-align: center;
+}
+
+body {
+  background-color: #002545;
+}
