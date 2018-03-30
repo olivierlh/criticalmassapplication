@@ -74,4 +74,4 @@ Bonus: I decided to use a small function that display my array in html list and 
 
 ## Reference letter
 
-I put a reference letter too in a folder called references. The original reference letter was in French so I translated it and put the English version too.
+I put a reference letter in a folder named "Reference". The original reference letter was in French. I translated it and put the English version too.
