@@ -71,3 +71,7 @@ For the function that removes all instances of a specified topping. I have no ch
 At first, for the second function I tried, to do the same thing that the first function. I tried to remove the element that I have in double in the array. But I used the function indexOf in the function filter, so my function was in O(n^2). Then I thought if I sort every element of my array, use slice(0) and a function filter that compare my first element and my second element. I have a function that is in theta(nlogn) . So my second function is quicker than my first.
 
 Bonus: I decided to use a small function that display my array in html list and add a little of CSS to make it better.
+
+## Reference letter
+
+I put a reference letter too in a folder called references. The original reference letter was in French so I translated it and put the English version too.
