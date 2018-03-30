@@ -57,7 +57,7 @@ I don't know if it can be considered, but I think it's a part of me that maybe y
 
 #### Breaking bad
 
-I created  a picture of myself as a character of breaking bad.
+I created  a picture of myself as a character of Breaking bad.
 
 #### George Harrison
 
@@ -68,6 +68,8 @@ I put myself in a very old photo of George Harrison.
 I would like to focus on developing, either web or software, for the moment I think that’s what I'm best at and that's what I love the best. I would like to upgrade my abilities to create great codes that will age well.
 
 ## Code Challenge
+
+The Code Challenge is in the folder /Code Challenge.
 
 For the function that removes all instances of a specified topping. I have no choice to go through the array. I can't let one element of the array because it can be the one I want to remove. Since the function "filter" in O(n), then, in all cases my function will be in big Theta(n).
 
