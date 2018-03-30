@@ -3,7 +3,6 @@
 ## Work / Project Examples
 
 All my examples of my work are in the folder \\Work-Project Examples. Everyone of my projects are in French, but I can code in English.
-For my first example, the problem was that I had an enterprise that created products and they had a storage cost and a production cost, also I needed to fulfil the demand every day and I could not exceed my storage space. For a given period and prices, I needed to optimize the cost of storage and production.
 
 I do not have the complete code for my examples 2 and 3. I only have the cpp files.
 
@@ -18,6 +17,8 @@ The solution is to mix the pictures with frequency. As you can see in the mix fo
 My project is not really done. I would like to create a window to import manually my photos and my masks that I want.
 
 ### Example 2
+
+For my second example, the problem was that I had an enterprise that created products and they had a storage cost and a production cost, also I needed to fulfil the demand every day and I could not exceed my storage space. For a given period and prices, I needed to optimize the cost of storage and production.
 
 I worked alone on this project in c++. So what I did is create a table of dimensions of the maximum amount of storage from 0 to 𝐸 per n number of days from 0 to 𝑛 -1.
 I put an image of my basic case in my folder. My variable 𝑑𝑖 is the demand for the day i, 𝑒𝑗 and   are the amount of storage space available after the day. V is my matrix (E x n).
